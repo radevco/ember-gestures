@@ -1,4 +1,6 @@
-import getOwner from 'ember-getowner-polyfill';
+import Ember from 'ember';
+
+const { getOwner } = Ember;
 
 export default {
   name: 'ember-gestures',
@@ -11,5 +13,4 @@ export default {
       getOwner(instance).lookup('service:-gestures');
     }
   }
-
 };
