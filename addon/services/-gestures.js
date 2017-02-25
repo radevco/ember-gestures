@@ -1,12 +1,12 @@
 import Ember from 'ember';
 import camelize from 'ember-allpurpose/string/dasherized-to-camel';
 import capitalize from 'ember-allpurpose/string/capitalize-word';
-import getOwner from 'ember-getowner-polyfill';
 
 const {
   computed,
   Service,
-  RSVP
+  RSVP,
+  getOwner
 } = Ember;
 
 const {
